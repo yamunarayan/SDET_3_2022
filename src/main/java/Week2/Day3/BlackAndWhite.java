@@ -30,6 +30,7 @@ public class BlackAndWhite {
         System.out.println(minimumRecolors("WBWBBBW", 2));
     }
 
+    //Time - O[N], Space - O[1]
     public int minimumRecolors(String blocks, int k) {
         int counter =0, index =0, minimum = Integer.MAX_VALUE;
 

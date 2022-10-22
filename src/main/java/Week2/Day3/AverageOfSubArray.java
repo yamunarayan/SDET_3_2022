@@ -6,7 +6,11 @@ public class AverageOfSubArray {
 
     /**
      * 1. Add first k-1 elements
-     *
+     * 2. Add end of the window element
+     * 3. Find the average value
+     * 4. subtract the first element in the array window
+     * 5. repeat 2-4 till end of the array
+     * 6. return max average
      */
 
     @Test
@@ -41,7 +45,8 @@ public class AverageOfSubArray {
     public void td5(){
         System.out.println(findMaxAverage(new int[]{-1}, 1));
     }
-    
+
+    //Time - O[N], Space - O[1]
     public double findMaxAverage(int[] nums, int k) {
         double maxAverage = Integer.MIN_VALUE;
         int pointer =0, sum =0;

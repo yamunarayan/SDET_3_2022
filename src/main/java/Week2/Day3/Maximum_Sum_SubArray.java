@@ -5,6 +5,15 @@ import org.testng.annotations.Test;
 
 public class Maximum_Sum_SubArray {
 
+    /**
+     * 1. Add first k-1 elements
+     * 2. Add end of the window element
+     * 3. Find the maximum value
+     * 4. subtract the first element in the array window
+     * 5. repeat 2-4 till end of the array
+     * 6. return max average
+     */
+
     @Test
     public void td4(){
         int[] input = new int[]{1, -5, 30, -12};
@@ -59,6 +68,7 @@ public class Maximum_Sum_SubArray {
         System.out.println(sliding_window(input, k));
     }
 
+    //Time - O[N], Space - O[1]
     private int sliding_window(int[] input, int k){
         int maximum = Integer.MIN_VALUE, pointer = 0, sum =0;
 
@@ -73,6 +83,7 @@ public class Maximum_Sum_SubArray {
         return maximum;
     }
 
+    //two pointer
     private int maxSum(int[] input, int k) {
         if (input.length < k) return 0;
         int left = 0, right = 1, sum = 0,  maxSum = Integer.MIN_VALUE;

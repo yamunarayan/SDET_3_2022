@@ -1,4 +1,4 @@
-package Day2_TimeAndComplexity;
+package Week1.Day2_TimeAndComplexity;
 
 import java.util.Arrays;
 

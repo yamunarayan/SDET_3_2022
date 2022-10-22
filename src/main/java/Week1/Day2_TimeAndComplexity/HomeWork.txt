@@ -1,0 +1,5 @@
+1. Calculate the time and space complexity for so far solved problems
+2. Solve below problem for today
+    i) https://leetcode.com/problems/move-zeroes/
+    ii) https://leetcode.com/problems/remove-element/
+    iii) https://leetcode.com/problems/shortest-distance-to-a-character/

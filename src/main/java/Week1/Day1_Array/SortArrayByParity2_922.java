@@ -1,4 +1,4 @@
-package Day1_Array;
+package Week1.Day1_Array;
 
 import org.testng.annotations.Test;
 

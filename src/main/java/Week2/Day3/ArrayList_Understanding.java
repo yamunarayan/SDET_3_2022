@@ -20,6 +20,12 @@ public class ArrayList_Understanding {
         al.add(3);
         al.add(4);
 
+        ArrayList<Integer> newAL = (ArrayList<Integer>) al.clone();
+
+        System.out.println(al);
+        newAL.set(0,2);
+        System.out.println(newAL);
+        System.out.println(al);
 
     }
 }

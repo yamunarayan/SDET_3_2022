@@ -1,0 +1,5 @@
+1.Dutch Flag Algorithm solve using 0,1,2
+	Input: {1,2,0,1,2}
+	Output: {0,1,1,2,2}
+2.Dutch Flag Algorithm solve for descending order sort
+3.Explore HashMap Basics
